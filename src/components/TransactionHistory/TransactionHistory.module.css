@@ -1,0 +1,35 @@
+.Container {
+  display: flex;
+  justify-content: center;
+}
+
+.TransactionHistory {
+  padding: 25px;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  gap: 50px;
+  background-color: black;
+  border-radius: 5%;
+  border: 5px solid red;
+  width: 50vw;
+}
+
+.TitleList {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  border-bottom: 1px solid red;
+}
+
+.TransactionList {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.TransactionItem {
+  display: flex;
+  justify-content: space-around;
+}
