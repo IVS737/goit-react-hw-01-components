@@ -1,0 +1,39 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Statistics {
+  width: 30vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background: ghostwhite;
+  margin-bottom: 100px;
+}
+
+.Statistics__Title {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.Statistics__StatList {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.Statistics__StatListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
