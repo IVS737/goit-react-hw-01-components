@@ -1,0 +1,57 @@
+.Profile {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Profile__Description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: lightgrey;
+  height: 40vh;
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile__Avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Profile__Name {
+  ont-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #131313;
+}
+
+.Profile__Stats {
+  width: 20vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+  border-top: 1px solid #000;
+  background: lightgrey;
+}
+
+.Profile__StatsLink {
+  display: flex;
+  height: 7vh;
+  flex-direction: column;
+  justify-content: center;
+}
