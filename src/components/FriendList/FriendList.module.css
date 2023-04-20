@@ -1,0 +1,34 @@
+.StatusTrue {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+}
+
+.StatusFalse {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+}
+
+.FriendList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background: skyblue;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+}
+
+.ListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
