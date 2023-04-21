@@ -1,0 +1,21 @@
+.StatusTrue {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+}
+
+.StatusFalse {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+}
+
+.ListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
